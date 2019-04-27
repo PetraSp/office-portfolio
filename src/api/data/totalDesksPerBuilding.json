@@ -1,0 +1,147 @@
+{
+  "stats": [{
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 293,
+    "building": {
+      "id": 1
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 213,
+    "building": {
+      "id": 2
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 380,
+    "building": {
+      "id": 3
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 1380,
+    "building": {
+      "id": 4
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 400,
+    "building": {
+      "id": 5
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 700,
+    "building": {
+      "id": 6
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 400,
+    "building": {
+      "id": 7
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 1607,
+    "building": {
+      "id": 8
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 2013,
+    "building": {
+      "id": 9
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 360,
+    "building": {
+      "id": 10
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 1360,
+    "building": {
+      "id": 11
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 1313,
+    "building": {
+      "id": 12
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 2180,
+    "building": {
+      "id": 13
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 1333,
+    "building": {
+      "id": 14
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 480,
+    "building": {
+      "id": 15
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 2040,
+    "building": {
+      "id": 16
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 1540,
+    "building": {
+      "id": 17
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 1713,
+    "building": {
+      "id": 18
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 1613,
+    "building": {
+      "id": 19
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 1007,
+    "building": {
+      "id": 20
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 360,
+    "building": {
+      "id": 21
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 1000,
+    "building": {
+      "id": 22
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 292,
+    "building": {
+      "id": 23
+    }
+  }, {
+    "dateTime": "2017-06-19T21:59:59Z",
+    "value": 213,
+    "building": {
+      "id": 24
+    }
+  }]
+}

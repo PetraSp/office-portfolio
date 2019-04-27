@@ -1,0 +1,172 @@
+{
+  "buildings": [
+    {
+      "address": "Badenerstrasse 21, 8004 Zürich",
+      "code": "DEMO",
+      "id": 1,
+      "latitude": 47.36399841308594,
+      "longitude": 8.519209861755371
+    },
+    {
+      "address": "Baslerstrasse 60, 8048 Zürich",
+      "code": "OfficeLab",
+      "id": 2,
+      "latitude": 47.38674545288086,
+      "longitude": 8.496363
+    },
+    {
+      "address": "Hardstrasse 201, 8005 Zürich",
+      "code": "Prime Tower",
+      "id": 3,
+      "latitude": 47.3860207,
+      "longitude": 8.5171884
+    },
+    {
+      "address": "Japan, 105-0001 TokyoMinato-ku 1-23-4 Toranomon",
+      "code": "Toranomon Hills",
+      "id": 4,
+      "latitude": 35.666927,
+      "longitude": 139.749589
+    },
+    {
+      "address": "Opp, Shivsena Bhavan, L.j Road, Mahim West., Padmabai Thakkar Rd, Kasaravadi, Dadar, Mumbai, Maharashtra 400016, India",
+      "code": "Kohinoor Square",
+      "id": 5,
+      "latitude": 19.0251231,
+      "longitude": 72.8413966
+    },
+    {
+      "address": "Av. Ipiranga, 344 - Centro, São Paulo - SP, 01046-010, Brasilien",
+      "code": "Edifício Itália",
+      "id": 6,
+      "latitude": -23.545528,
+      "longitude": -46.6435652
+    },
+    {
+      "address": "32 London Bridge St, London SE1 9SG, United Kingdom",
+      "code": "Shard London Bridge",
+      "id": 7,
+      "latitude": 51.50437145,
+      "longitude": -0.0864822031103623
+    },
+    {
+      "address": "Canary Wharf, London E14 5AB, United Kingdom",
+      "code": "One Canada Square",
+      "id": 8,
+      "latitude": 51.5049489,
+      "longitude": -0.0195006
+    },
+    {
+      "address": "Heron Tower, London, United Kingdom",
+      "code": "110 Bishopsgate",
+      "id": 9,
+      "latitude": 51.51625345,
+      "longitude": -0.0808202018163526
+    },
+    {
+      "address": "122 Leadenhall St, London EC3V 4AB, UK",
+      "code": "Leadenhall",
+      "id": 10,
+      "latitude": 51.5138043,
+      "longitude": -0.0822943
+    },
+    {
+      "address": "Eden Square Phase IV, Kukatpally Housing Board Colony, Kukatpally, Hyderabad, Telangana 500072, India",
+      "code": "Lodha Bellezza",
+      "id": 11,
+      "latitude": 17.4741248,
+      "longitude": 78.3940135
+    },
+    {
+      "address": "1 Raffles Place, Singapore 048616",
+      "code": "One Raffles Place",
+      "id": 12,
+      "latitude": 1.2846034,
+      "longitude": 103.8511094
+    },
+    {
+      "address": "9 Raffles Place, Singapore 048619",
+      "code": "Republic Plaza",
+      "id": 13,
+      "latitude": 1.2837372,
+      "longitude": 103.8437976
+    },
+    {
+      "address": "Martin-Hoffmann-Straße 16, 12435 Berlin, Germany",
+      "code": "Treptowers",
+      "id": 14,
+      "latitude": 52.4944426,
+      "longitude": 13.4600143
+    },
+    {
+      "address": "Tauentzienstraße 9-12, 10789 Berlin, Germany",
+      "code": "Europa-Center",
+      "id": 15,
+      "latitude": 52.5047873,
+      "longitude": 13.3376813
+    },
+    {
+      "address": "Torre Cepsa, Paseo de la Castellana, 259 A, 28046 Madrid, Spain",
+      "code": "Torre Cepsa",
+      "id": 16,
+      "latitude": 40.4758761,
+      "longitude": -3.6877541
+    },
+    {
+      "address": "Mechnykova St, 2, Kyiv, Ukraine",
+      "code": "Parus Business Centre",
+      "id": 17,
+      "latitude": 50.437629,
+      "longitude": 30.527186
+    },
+    {
+      "address": "Passeggiata del Giappone 00144, Roma, Italy",
+      "code": "Palazzo Eni",
+      "id": 18,
+      "latitude": 41.8268385,
+      "longitude": 12.4710162
+    },
+    {
+      "address": "Tour Majunga, 92800 Puteaux, France",
+      "code": "Tour Majunga",
+      "id": 19,
+      "latitude": 48.8888,
+      "longitude": 2.2413113
+    },
+    {
+      "address": "Reeperbahn 1, 20359 Hamburg, Germany",
+      "code": "Dancing Towers",
+      "id": 20,
+      "latitude": 53.5494486,
+      "longitude": 9.9679954
+    },
+    {
+      "address": "Kaiserstraße 1, 60311 Frankfurt am Main, Germany",
+      "code": "Kaiserplatz 1",
+      "id": 21,
+      "latitude": 50.111741,
+      "longitude": 8.6771374
+    },
+    {
+      "address": "Westendstraße 1, 60325 Frankfurt am Main, Germany",
+      "code": "Westend",
+      "id": 22,
+      "latitude": 50.110815,
+      "longitude": 8.662404
+    },
+    {
+      "address": "Badenerstrasse 141, 8004 Zürich",
+      "code": "Badenerstrasse",
+      "id": 23,
+      "latitude": 47.37408,
+      "longitude": 8.522642
+    },
+    {
+      "address": "Binzstrasse 41, 8048 Zürich",
+      "code": "Binz",
+      "id": 24,
+      "latitude": 47.361708,
+      "longitude": 8.512248
+    }
+  ]
+}
