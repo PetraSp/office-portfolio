@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+
+* The size array was created taking into account that the API response has values for all buildings and those ids are already sorted. If that's not a case we should sort the array based on ID and also match the values using the building/id data.

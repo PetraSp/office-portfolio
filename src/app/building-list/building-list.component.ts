@@ -1,10 +1,14 @@
-import { Component, OnInit } from '@angular/core';
-import {BuildingService, IBuildingsJSON, IBuildingsData} from './building.service';
+import {Component, OnInit} from '@angular/core';
+import {
+  BuildingService,
+  IBuildingsJSON,
+  IBuildingOccupationJSON,
+} from './building.service';
 
 export interface IBuilding {
   name: string;
   size: number;
-  usage: number;
+  usage: string;
   capacity: number;
 }
 
@@ -14,29 +18,50 @@ export interface IBuilding {
   styleUrls: ['./building-list.component.css']
 })
 export class BuildingListComponent implements OnInit {
-  buildings: IBuildingsJSON;
-  displayedColumns: string[] = ['Building', 'Size', 'Usage', 'Capacity'];
+  displayedColumns: string[] = ['name', 'size', 'usage', 'capacity'];
   dataSource: IBuilding[] = [];
-  constructor(private buildingsService: BuildingService) { }
+
+  constructor(private buildingsService: BuildingService) {}
 
   ngOnInit() {
-    this.buildingsService.getBuildings().subscribe((data: IBuildingsJSON) => {
-      console.log(data.buildings);
-      const buildingNames = data.buildings.map(building => building.code);
-      console.log(buildingNames);
-      this.buildings = data;
-
-
-      for (let i = 0; i < data.buildings.length; i++) {
-        this.dataSource.push({
-            name: buildingNames[i],
-            size: 2, // buildingSizes[i];
-            usage: 3, // buildingUsages[i];
-            capacity: 4, // buildingCapacity[i];
-        });
-      }
-      console.log(this.dataSource);
+    const tableData = {
+      names: [],
+      size: [],
+      usage: [],
+      capacity: [],
+    };
+    this.buildingsService.getBuildings().subscribe((buildingsData: IBuildingsJSON) => {
+      tableData.names = buildingsData.buildings.map(building => building.code);
+      this.buildingsService.getTotalDesk().subscribe((desksData: IBuildingOccupationJSON) => {
+        tableData.size = desksData.stats
+          .sort((statA, statB) => (statA.building.id - statB.building.id))
+          .map(desks => desks.value);
+        this.buildingsService.getDeskPeakOccupation().subscribe((occupationData: IBuildingOccupationJSON) => {
+          const occupationValues = occupationData.stats
+            .sort((statA, statB) => (statA.building.id - statB.building.id))
+            .map(occupationStat => occupationStat.value);
+          tableData.usage = occupationValues
+            .map((value, index) =>
+              `${Math.floor((value / tableData.size[index]) * 100)}`);
+          tableData.capacity = occupationValues
+            .map((value, index) =>
+              tableData.size[index] - value);
+        },     error => console.log(error), () => this.generateTable(tableData));
+      });
     });
   }
+
+  generateTable(tableData: any) {
+    for (let i = 0; i < tableData.names.length; i++) {
+      this.dataSource.push({
+        name: tableData.names[i],
+        size: tableData.size[i],
+        usage: tableData.usage[i],
+        capacity: tableData.capacity[i],
+      });
+    }
+    this.dataSource = [...this.dataSource];
+  }
 }
+
 
