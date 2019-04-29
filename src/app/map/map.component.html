@@ -1,0 +1,18 @@
+<agm-map [zoom]="zoom" [latitude]="lat" [longitude]="lng">
+  <agm-marker
+    *ngFor='let marker of markers'
+    [latitude]='marker.lat'
+    [longitude]='marker.lng'
+    [markerDraggable]='false'
+    [iconUrl]='marker.icon'
+  >
+    <agm-info-window>{{marker.address}}</agm-info-window>
+  </agm-marker>
+</agm-map>
+
+<div class="mat-typography legend">
+  <h2>Legend:</h2>
+  <span>From 0%</span>
+  <img *ngFor='let legend of legends' src='http://maps.google.com/mapfiles/ms/icons/{{legend}}-dot.png' />
+  <span>To 100%</span>
+</div>
